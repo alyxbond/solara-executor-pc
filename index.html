@@ -1,0 +1,172 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Install Solara Executor on a Virtual Machine</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f9;
+        }
+        header {
+            background-color: #19012C;
+            color: white;
+            text-align: center;
+            padding: 1.5em;
+        }
+        h1 {
+            margin: 0;
+            font-size: 2.5em;
+        }
+        section {
+            max-width: 900px;
+            margin: 30px auto;
+            padding: 20px;
+            background-color: #fff;
+            border-radius: 10px;
+            box-shadow: 0 2px 10px rgba(0,0,0,0.1);
+        }
+        h2, h3 {
+            color: #333;
+        }
+        p {
+            line-height: 1.6;
+            color: #666;
+        }
+        ul {
+            list-style-type: square;
+            padding-left: 20px;
+        }
+        code {
+            background-color: #f0f0f0;
+            padding: 2px 4px;
+            font-size: 0.9em;
+            border-radius: 4px;
+        }
+        footer {
+            text-align: center;
+            padding: 20px;
+            background-color: #19012C;
+            color: white;
+        }
+        .highlight {
+            background-color: #e7f3e7;
+            border-left: 5px solid #19012C;
+            padding: 10px;
+            margin: 20px 0;
+        }
+        .step {
+            padding: 10px 0;
+            border-bottom: 1px solid #eaeaea;
+        }
+        .step:last-child {
+            border-bottom: none;
+        }
+        .btn-download {
+            display: inline-block;
+            padding: 10px 20px;
+            margin-top: 20px;
+            background-color: #19012C;
+            color: white;
+            border: none;
+            border-radius: 5px;
+            text-decoration: none;
+            font-size: 1.1em;
+	    text-align: center;
+        }
+	/* Centering the button */
+	.button-container {
+    	     text-align: center;
+	}
+        .btn-download:hover {
+            background-color: #C592EF;
+        }
+    </style>
+</head>
+<body>
+
+<header>
+    <h1>Installing Solara Executor on a Virtual Machine</h1>
+</header>
+
+<section>
+    <h2>Why Use a Virtual Machine for Solara Executor?</h2>
+    <p>Running Solara Executor on a virtual machine (VM) provides several advantages, such as:</p>
+    <ul>
+        <li><strong>Increased Security</strong>: It isolates the executor from your main system, reducing risks.</li>
+        <li><strong>Testing Environment</strong>: Safely test scripts and executors without affecting your main system.</li>
+        <li><strong>Sandboxing</strong>: Complete isolation minimizes the risk of system-wide issues.</li>
+    </ul>
+
+    <h2>Step-by-Step Guide to Installing Solara Executor</h2>
+
+    <div class="step">
+        <h3>1. Choose a Virtual Machine Software</h3>
+        <p>Select a VM software like:</p>
+        <ul>
+            <li><strong>Oracle VirtualBox</strong> (Free)</li>
+            <li><strong>VMware Workstation Player</strong> (Free for personal use)</li>
+            <li><strong>Microsoft Hyper-V</strong> (Available on Windows Pro/Enterprise)</li>
+        </ul>
+        <p>In this guide, we will use VirtualBox, but the steps are similar for other platforms.</p>
+    </div>
+
+    <div class="step">
+        <h3>2. Set Up Your Virtual Machine</h3>
+        <p>Once you have installed VirtualBox or your chosen VM software, follow these steps:</p>
+        <ul>
+            <li><strong>Create a New VM</strong>: Open VirtualBox, click “New,” and configure your VM for <code>Windows 10</code>.</li>
+            <li><strong>Allocate Resources</strong>: Assign at least <code>4GB RAM</code> and a <code>20GB virtual hard disk</code>.</li>
+            <li><strong>Install Windows</strong>: Download a Windows ISO and install it in the VM.</li>
+        </ul>
+    </div>
+
+    <div class="step">
+        <h3>3. Prepare Your VM for Solara Executor</h3>
+        <ul>
+            <li><strong>Install Guest Additions</strong>: In VirtualBox, go to <code>Devices > Insert Guest Additions CD image</code>.</li>
+            <li><strong>Enable Virtualization</strong>: In VM settings, ensure virtualization is enabled under the "System" tab.</li>
+            <li><strong>Disable Windows Defender</strong> (optional): Go to <code>Windows Security > Virus & Threat Protection > Manage Settings</code> to disable real-time protection.</li>
+        </ul>
+    </div>
+
+    <div class="step">
+        <h3>4. Download and Install Solara Executor</h3>
+        <p>Now, install Solara Executor on the VM:</p>
+        <ul>
+            <li>Visit the official website and download Solara Executor.</li>
+            <li>Run the installer with Administrator privileges and follow the prompts.</li>
+        </ul>
+	<!-- Button container to center the button -->
+    	<div class="button-container">
+        	<a href="https://solaraexecutorpc.com" class="btn-download">Download Solara Executor</a>
+    	</div>
+</div>
+
+    <div class="step">
+        <h3>5. Test Solara Executor</h3>
+        <p>Once installed, open Roblox in your VM and use Solara Executor to run scripts in a safe, isolated environment.</p>
+    </div>
+
+    <h2>Benefits of Using Solara Executor on a VM</h2>
+    <div class="highlight">
+        <ul>
+            <li><strong>No Permanent Changes</strong>: Changes made within the VM won’t affect your main system.</li>
+            <li><strong>Easy Reset</strong>: If something goes wrong, you can simply reset or delete the VM.</li>
+            <li><strong>Enhanced Privacy</strong>: Running in a VM ensures better privacy and security.</li>
+        </ul>
+    </div>
+
+    <h2>Conclusion</h2>
+    <p>Installing Solara Executor on a virtual machine offers a safe and secure way to run scripts in Roblox. Enjoy enhanced protection, privacy, and the ability to reset your system if needed. Make sure to always download from official sources and follow the steps for an optimized experience.</p>
+</section>
+
+<footer>
+    <p></p>
+</footer>
+
+</body>
+</html>
